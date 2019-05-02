@@ -1,10 +1,10 @@
 ---
-slug: "/first-post"
-date: "2019-05-02"
-title: "My first post"
+slug: "/second-post"
+date: "2019-05-03"
+title: "My second post"
 ---
 
-# Hello
+# YOOOOOO
 
 Lorem ipsum dolor amet typewriter stumptown twee plaid. Shabby chic etsy offal direct trade gentrify master cleanse cronut PBR&B iPhone austin ugh vinyl. Coloring book hoodie sriracha enamel pin shoreditch health goth chartreuse blue bottle blog single-origin coffee kickstarter. Asymmetrical pabst bitters irony kitsch. Pickled hexagon snackwave, crucifix master cleanse selfies kale chips humblebrag plaid ethical portland activated charcoal knausgaard fixie tousled. Kombucha raw denim XOXO, next level irony edison bulb keffiyeh master cleanse kale chips tote bag try-hard. Artisan cred ennui photo booth farm-to-table schlitz.
 
