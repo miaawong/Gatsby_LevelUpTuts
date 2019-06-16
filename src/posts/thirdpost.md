@@ -4,7 +4,7 @@ date: "2019-05-04"
 title: "My third post"
 ---
 
-# WHAT UP BITCH
+# AYO Whats up
 
 Lorem ipsum dolor amet typewriter stumptown twee plaid. Shabby chic etsy offal direct trade gentrify master cleanse cronut PBR&B iPhone austin ugh vinyl. Coloring book hoodie sriracha enamel pin shoreditch health goth chartreuse blue bottle blog single-origin coffee kickstarter. Asymmetrical pabst bitters irony kitsch. Pickled hexagon snackwave, crucifix master cleanse selfies kale chips humblebrag plaid ethical portland activated charcoal knausgaard fixie tousled. Kombucha raw denim XOXO, next level irony edison bulb keffiyeh master cleanse kale chips tote bag try-hard. Artisan cred ennui photo booth farm-to-table schlitz.
 

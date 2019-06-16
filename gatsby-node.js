@@ -15,6 +15,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `).then(results => {
+      // for each markdown files... create page
       results.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
           path: `/posts${node.frontmatter.slug}`,
@@ -22,7 +23,7 @@ exports.createPages = ({ graphql, actions }) => {
           context: {
             //data passed into the component
             slug: node.frontmatter.slug,
-            //slug will be assesible postLayout component
+            //slug will be assecible postLayout component
           },
         });
       });

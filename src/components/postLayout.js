@@ -6,13 +6,14 @@ import Layout from "./layout";
 // can be used anywhere, but doesn't accept variables, can't use 'context'
 
 // Page Query
-// must be used on pages
+// must be used on pages, can use variables for dynamic loading
 
 export default class postLayout extends Component {
   render() {
     const { markdownRemark } = this.props.data;
+    const { location } = this.props;
     return (
-      <Layout>
+      <Layout location={location}>
         <h1>{markdownRemark.frontmatter.title}</h1>
         <h3>{markdownRemark.frontmatter.date}</h3>
         <div
@@ -34,7 +35,7 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date
+        date(formatString: "MMMM DD, YYYY")
         slug
       }
     }
