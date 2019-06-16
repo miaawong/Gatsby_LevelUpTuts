@@ -69,9 +69,6 @@ const Layout = ({ children, location }) => (
             </div>
           )}
         </Spring>
-        {/* {location.pathname === "/" && (
-         
-        )} */}
         <MainLayout>
           <div>{children}</div>
           <Archive />
@@ -88,6 +85,11 @@ const Layout = ({ children, location }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+};
+// .pathname is part of the browser of the site, so there isn't pathname, we need a default value
+// so when we try to use .pathname it won't be undefined and break, it just won't be rendered, and there won't be animation
+Layout.defaultProps = {
+  location: {},
 };
 
 export default Layout;
