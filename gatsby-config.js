@@ -3,6 +3,7 @@ module.exports = {
     title: `Level Up Blog`,
     description: `A Blog built with Gatsby JS `,
     author: `@gatsbyjs`,
+    siteUrl: "https://miawong.dev",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,21 +25,23 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `miawong.dev`,
+        short_name: `mw.dev`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000`,
+        theme_color: `#d9534f`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 };

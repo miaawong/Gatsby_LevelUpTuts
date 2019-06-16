@@ -6,7 +6,7 @@ import styled from "styled-components";
 import logo from "../images/logo.png";
 
 const HeaderWrapper = styled.div`
-  background: #ea7070;
+  background: #d9534f;
   margin-bottom: 0;
   img {
     margin-bottom: 0;
